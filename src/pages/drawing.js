@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 const Drawing = ({ drawing }) => {
   return (
     <Link href={`/drawings/${drawing.slug}`}>
